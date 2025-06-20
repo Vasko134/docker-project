@@ -1,0 +1,8 @@
+CREATE DATABASE IF NOT EXISTS simple_db;
+USE simple_db;
+
+CREATE TABLE IF NOT EXISTS messages (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100),
+    message TEXT
+);
